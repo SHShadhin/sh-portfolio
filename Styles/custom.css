@@ -161,13 +161,64 @@ main {
 .title {
   font-weight: 700;
   font-size: 25px;
-  color:#474747
+  color: #474747;
 }
 .sub-title {
-  color:#757575;
+  color: #757575;
   margin-top: 10px;
   margin-bottom: 30px;
 }
 .description {
   margin-bottom: 50px;
 }
+.resume-btn {
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+/* footer styles */
+footer {
+  background: #fff8f3;
+}
+.contact-container {
+  display: flex;
+  gap: 117px;
+  justify-content: center;
+  padding: 130px 340px;
+}
+.contact-container h3 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.contact-container p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.contact-container a {
+  text-decoration: none;
+  padding: 10px;
+}
+.contact-btn {
+  background: #fd6e0a;
+  height: 60px;
+  width: 150px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 24px;
+}
+input {
+  
+  width: 461px;
+  height: 64px;
+  margin-bottom: 24px;
+  border:none;
+ 
+}
+textarea {
+  width: 461px;
+  height: 180px;
+  border:none;
+  
+}
+
