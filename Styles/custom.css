@@ -67,8 +67,44 @@ nav ul {
   margin-left: 30px;
 }
 header {
-background: #FFF8F3;
-background-image: url('/images/header_bg.png'),url('/images/developer.png');
-background-repeat: no-repeat;
-background-position: bottom right, bottom left;
+  background: #fff8f3;
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
+}
+/* About styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  margin-top: 130px;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 155px;
+}
+.about-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  text-align: center;
+}
+.about-description {
+  color: #757575;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info .info-title {
+  color: #757575;
+  font-size: 20px;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
 }
