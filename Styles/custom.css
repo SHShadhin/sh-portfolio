@@ -14,7 +14,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav li {
   list-style: none;
@@ -65,4 +65,10 @@ nav ul {
   font-weight: 700;
   font-size: 20px;
   margin-left: 30px;
+}
+header {
+background: #FFF8F3;
+background-image: url('/images/header_bg.png'),url('/images/developer.png');
+background-repeat: no-repeat;
+background-position: bottom right, bottom left;
 }
